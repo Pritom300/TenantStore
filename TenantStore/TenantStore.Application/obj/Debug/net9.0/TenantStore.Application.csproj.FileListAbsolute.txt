@@ -13,3 +13,4 @@ C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application
 C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\obj\Debug\net9.0\refint\TenantStore.Application.dll
 C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\obj\Debug\net9.0\TenantStore.Application.pdb
 C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\obj\Debug\net9.0\ref\TenantStore.Application.dll
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\obj\Debug\net9.0\TenantStore.Application.sourcelink.json

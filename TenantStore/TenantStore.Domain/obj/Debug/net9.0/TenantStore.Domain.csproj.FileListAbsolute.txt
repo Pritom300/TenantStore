@@ -9,3 +9,4 @@ C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\obj\
 C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\obj\Debug\net9.0\refint\TenantStore.Domain.dll
 C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\obj\Debug\net9.0\TenantStore.Domain.pdb
 C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\obj\Debug\net9.0\ref\TenantStore.Domain.dll
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\obj\Debug\net9.0\TenantStore.Domain.sourcelink.json

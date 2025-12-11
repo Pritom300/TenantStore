@@ -17,3 +17,4 @@ C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Infrastruct
 C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Infrastructure\obj\Debug\net9.0\TenantStore.Infrastructure.pdb
 C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Infrastructure\obj\Debug\net9.0\TenantStore.Infrastructure.genruntimeconfig.cache
 C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Infrastructure\obj\Debug\net9.0\ref\TenantStore.Infrastructure.dll
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Infrastructure\obj\Debug\net9.0\TenantStore.Infrastructure.sourcelink.json

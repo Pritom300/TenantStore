@@ -159,3 +159,5 @@ C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.API\obj\Deb
 C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.API\obj\Debug\net9.0\TenantStore.API.pdb
 C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.API\obj\Debug\net9.0\TenantStore.API.genruntimeconfig.cache
 C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.API\obj\Debug\net9.0\ref\TenantStore.API.dll
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.API\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.API\obj\Debug\net9.0\TenantStore.API.sourcelink.json
