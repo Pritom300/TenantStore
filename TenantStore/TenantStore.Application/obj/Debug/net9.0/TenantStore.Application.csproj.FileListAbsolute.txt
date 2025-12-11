@@ -1,0 +1,15 @@
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\bin\Debug\net9.0\TenantStore.Application.deps.json
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\bin\Debug\net9.0\TenantStore.Application.dll
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\bin\Debug\net9.0\TenantStore.Application.pdb
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\bin\Debug\net9.0\TenantStore.Domain.dll
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\bin\Debug\net9.0\TenantStore.Domain.pdb
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\obj\Debug\net9.0\TenantStore.Application.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\obj\Debug\net9.0\TenantStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\obj\Debug\net9.0\TenantStore.Application.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\obj\Debug\net9.0\TenantStore.Application.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\obj\Debug\net9.0\TenantStore.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\obj\Debug\net9.0\TenantSt.D10982FF.Up2Date
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\obj\Debug\net9.0\TenantStore.Application.dll
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\obj\Debug\net9.0\refint\TenantStore.Application.dll
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\obj\Debug\net9.0\TenantStore.Application.pdb
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Application\obj\Debug\net9.0\ref\TenantStore.Application.dll

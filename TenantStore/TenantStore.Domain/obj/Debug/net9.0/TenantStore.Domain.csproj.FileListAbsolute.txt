@@ -1,0 +1,11 @@
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\bin\Debug\net9.0\TenantStore.Domain.deps.json
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\bin\Debug\net9.0\TenantStore.Domain.dll
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\bin\Debug\net9.0\TenantStore.Domain.pdb
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\obj\Debug\net9.0\TenantStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\obj\Debug\net9.0\TenantStore.Domain.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\obj\Debug\net9.0\TenantStore.Domain.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\obj\Debug\net9.0\TenantStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\obj\Debug\net9.0\TenantStore.Domain.dll
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\obj\Debug\net9.0\refint\TenantStore.Domain.dll
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\obj\Debug\net9.0\TenantStore.Domain.pdb
+C:\Users\HP\OneDrive\Desktop\Project\Project\TenantStore\TenantStore.Domain\obj\Debug\net9.0\ref\TenantStore.Domain.dll
