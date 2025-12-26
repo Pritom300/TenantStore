@@ -1,1 +1,46 @@
-<p>navbar works!</p>
+<nav class="navbar">
+  <div class="navbar-container">
+    <div class="navbar-brand">
+      <h2>{{ tenantInfo?.name || 'TenantStore' }}</h2>
+      <span class="subdomain">{{ tenantInfo?.subdomain }}</span>
+    </div>
+
+    <div class="navbar-menu" *ngIf="currentUser">
+      <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+      <a routerLink="/products" routerLinkActive="active">Products</a>
+      
+      <!-- Admin Menu (Admin + SuperAdmin) -->
+      <div class="dropdown" *ngIf="authService.isAdmin() || authService.isSuperAdmin()">
+        <a class="dropdown-toggle">Admin ▼</a>
+        <div class="dropdown-menu">
+          <a routerLink="/admin/users">👥 Users</a>
+          <a routerLink="/admin/subscription">⭐ Subscription</a>
+          <a routerLink="/admin/theme">🎨 Theme Settings</a>
+        </div>
+      </div>
+
+      <!-- SuperAdmin Menu (SuperAdmin only) -->
+      <div class="dropdown" *ngIf="authService.isSuperAdmin()">
+        <a class="dropdown-toggle superadmin">SuperAdmin ▼</a>
+        <div class="dropdown-menu">
+          <a routerLink="/admin/create-tenant">🏢 Create Tenant</a>
+          <a routerLink="/admin/manage-tenants">🔧 Manage Tenants</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-user">
+      <div *ngIf="currentUser; else notLoggedIn">
+        <span class="user-name">{{ currentUser.name }}</span>
+        <span class="user-role" [class.role-superadmin]="currentUser.role === 'SuperAdmin'">
+          ({{ currentUser.role }})
+        </span>
+        <button (click)="logout()" class="btn-logout">Logout</button>
+      </div>
+      <ng-template #notLoggedIn>
+        <a routerLink="/login" class="btn-login">Login</a>
+        <a routerLink="/register" class="btn-register">Register</a>
+      </ng-template>
+    </div>
+  </div>
+</nav>

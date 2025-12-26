@@ -1,0 +1,112 @@
+<div class="tenant-create-container">
+  <div class="form-card">
+    <h2>🏢 Create New Tenant</h2>
+    <p class="subtitle">Set up a new store with admin account</p>
+
+    <div class="alert alert-success" *ngIf="successMessage">
+      {{ successMessage }}
+    </div>
+
+    <div class="alert alert-error" *ngIf="errorMessage">
+      {{ errorMessage }}
+    </div>
+
+    <form (ngSubmit)="onSubmit()">
+      <div class="section">
+        <h3>Tenant Information</h3>
+        
+        <div class="form-group">
+          <label for="name">Store Name *</label>
+          <input 
+            type="text" 
+            id="name" 
+            [(ngModel)]="tenantData.name" 
+            name="name"
+            placeholder="e.g., Alpha Mart"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="subdomain">Subdomain *</label>
+          <div class="subdomain-input">
+            <input 
+              type="text" 
+              id="subdomain" 
+              [(ngModel)]="tenantData.subdomain" 
+              name="subdomain"
+              placeholder="e.g., alpha"
+              required
+            />
+            <span class="subdomain-suffix">.localhost</span>
+          </div>
+          <small>Only lowercase letters and numbers, no spaces</small>
+        </div>
+
+        <div class="form-group">
+          <label for="themeColor">Theme Color *</label>
+          <div class="color-input">
+            <input 
+              type="color" 
+              id="themeColor" 
+              [(ngModel)]="tenantData.themeColor" 
+              name="themeColor"
+            />
+            <input 
+              type="text" 
+              [(ngModel)]="tenantData.themeColor" 
+              name="themeColorText"
+              placeholder="#007bff"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>Admin Account</h3>
+        
+        <div class="form-group">
+          <label for="adminName">Admin Name *</label>
+          <input 
+            type="text" 
+            id="adminName" 
+            [(ngModel)]="tenantData.adminName" 
+            name="adminName"
+            placeholder="e.g., John Doe"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="adminEmail">Admin Email *</label>
+          <input 
+            type="email" 
+            id="adminEmail" 
+            [(ngModel)]="tenantData.adminEmail" 
+            name="adminEmail"
+            placeholder="admin@example.com"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="adminPassword">Admin Password *</label>
+          <input 
+            type="password" 
+            id="adminPassword" 
+            [(ngModel)]="tenantData.adminPassword" 
+            name="adminPassword"
+            placeholder="Minimum 6 characters"
+            required
+          />
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn-primary" [disabled]="loading">
+          {{ loading ? 'Creating Tenant...' : '🚀 Create Tenant' }}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

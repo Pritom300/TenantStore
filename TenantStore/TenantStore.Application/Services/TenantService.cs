@@ -89,4 +89,26 @@ public class TenantService : ITenantService
             CreatedAt = tenant.CreatedAt
         };
     }
+
+    public async Task<Result> UpgradeSubscriptionAsync(
+    Guid tenantId,
+    string plan,
+    int maxProducts,
+    int maxUsers,
+    int durationMonths,
+    CancellationToken cancellationToken = default)
+    {
+        var tenant = await _unitOfWork.Tenants.GetByIdAsync(tenantId, cancellationToken);
+        if (tenant == null)
+            return Result.Failure("Tenant not found");
+
+        if (!Enum.TryParse<SubscriptionPlan>(plan, out var subscriptionPlan))
+            return Result.Failure("Invalid subscription plan");
+
+        tenant.UpgradeSubscription(subscriptionPlan, maxProducts, maxUsers, durationMonths);
+        _unitOfWork.Tenants.Update(tenant);
+        await _unitOfWork.SaveChangesAsync(cancellationToken);
+
+        return Result.Success();
+    }
 }

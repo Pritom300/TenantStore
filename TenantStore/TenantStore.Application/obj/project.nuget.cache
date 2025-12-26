@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "GcEauuGigvI=",
+  "dgSpecHash": "tM+FeyM3TfE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj",
+  "projectFilePath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
-    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.32\\microsoft.aspnetcore.http.features.3.1.32.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.32\\microsoft.extensions.primitives.3.1.32.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.io.pipelines\\4.7.5\\system.io.pipelines.4.7.5.nupkg.sha512"
   ],
   "logs": []
 }

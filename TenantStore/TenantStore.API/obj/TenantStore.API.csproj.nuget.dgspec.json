@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\TenantStore.API.csproj": {}
+    "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\TenantStore.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\TenantStore.API.csproj": {
+    "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\TenantStore.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\TenantStore.API.csproj",
+        "projectUniqueName": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\TenantStore.API.csproj",
         "projectName": "TenantStore.API",
-        "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\TenantStore.API.csproj",
+        "projectPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\TenantStore.API.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\obj\\",
+        "outputPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj": {
-                "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj"
+              "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj": {
+                "projectPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj"
               },
-              "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj"
+              "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj": {
+                "projectPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj"
               }
             }
           }
@@ -111,14 +111,14 @@
         }
       }
     },
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj": {
+    "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj",
+        "projectUniqueName": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj",
         "projectName": "TenantStore.Application",
-        "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj",
+        "projectPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\obj\\",
+        "outputPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -139,8 +139,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj": {
-                "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj"
+              "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj": {
+                "projectPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj"
               }
             }
           }
@@ -164,6 +164,10 @@
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.32, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
@@ -190,14 +194,14 @@
         }
       }
     },
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj": {
+    "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj",
+        "projectUniqueName": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj",
         "projectName": "TenantStore.Domain",
-        "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj",
+        "projectPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Domain\\obj\\",
+        "outputPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -255,14 +259,14 @@
         }
       }
     },
-    "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj": {
+    "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj",
+        "projectUniqueName": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj",
         "projectName": "TenantStore.Infrastructure",
-        "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj",
+        "projectPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\obj\\",
+        "outputPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -283,11 +287,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj": {
-                "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj"
+              "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj": {
+                "projectPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj"
               },
-              "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj": {
-                "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj"
+              "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj": {
+                "projectPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj"
               }
             }
           }

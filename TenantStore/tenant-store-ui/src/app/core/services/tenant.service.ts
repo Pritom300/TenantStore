@@ -1,4 +1,5 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Inject, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { TenantInfo } from '../models/tenant.model';
 
@@ -9,11 +10,19 @@ export class TenantService {
   private tenantSubject = new BehaviorSubject<TenantInfo | null>(null);
   public tenant$ = this.tenantSubject.asObservable();
 
-  constructor() {
-    this.detectTenant();
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {
+    // Only detect tenant if running in browser
+    if (isPlatformBrowser(this.platformId)) {
+      this.detectTenant();
+    }
   }
 
   private detectTenant(): void {
+    // Check if window is available
+    if (typeof window === 'undefined') {
+      return;
+    }
+
     const hostname = window.location.hostname;
     let subdomain: string | null = null;
 
@@ -32,12 +41,17 @@ export class TenantService {
 
     if (subdomain && subdomain !== 'www') {
       // Store subdomain for API calls
-      localStorage.setItem('tenant_subdomain', subdomain);
+      if (typeof localStorage !== 'undefined') {
+        localStorage.setItem('tenant_subdomain', subdomain);
+      }
     }
   }
 
   getTenantSubdomain(): string | null {
-    return localStorage.getItem('tenant_subdomain');
+    if (typeof localStorage !== 'undefined') {
+      return localStorage.getItem('tenant_subdomain');
+    }
+    return null;
   }
 
   setTenant(tenant: TenantInfo): void {
@@ -51,6 +65,8 @@ export class TenantService {
   }
 
   private applyTheme(color: string): void {
-    document.documentElement.style.setProperty('--primary-color', color);
+    if (typeof document !== 'undefined') {
+      document.documentElement.style.setProperty('--primary-color', color);
+    }
   }
 }

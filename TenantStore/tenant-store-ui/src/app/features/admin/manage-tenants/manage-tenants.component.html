@@ -1,0 +1,113 @@
+<div class="manage-tenants-container">
+  <div class="header">
+    <div>
+      <h1>🏢 Manage Tenants</h1>
+      <p class="subtitle">SuperAdmin - View and manage all tenants</p>
+    </div>
+    <a routerLink="/admin/create-tenant" class="btn-create">
+      ➕ Create New Tenant
+    </a>
+  </div>
+
+  <!-- <div class="stats-bar">
+    <div class="stat">
+      <span class="label">Total Tenants:</span>
+      <span class="value">{{ tenants.length }}</span>
+    </div>
+    <div class="stat">
+      <span class="label">Active:</span>
+      <span class="value">{{ (tenants | filter: 'isActive': true).length }}</span>
+    </div>
+    <div class="stat">
+      <span class="label">Inactive:</span>
+      <span class="value">{{ (tenants | filter: 'isActive': false).length }}</span>
+    </div>
+  </div> -->
+<div class="stats-bar">
+  <div class="stat">
+    <span class="label">Total Tenants:</span>
+    <span class="value">{{ tenants.length }}</span>
+  </div>
+  <div class="stat">
+    <span class="label">Active:</span>
+    <span class="value">{{ activeTenantsCount }}</span>
+  </div>
+  <div class="stat">
+    <span class="label">Inactive:</span>
+    <span class="value">{{ inactiveTenantsCount }}</span>
+  </div>
+</div>
+  <div class="alert alert-error" *ngIf="errorMessage">
+    {{ errorMessage }}
+  </div>
+
+  <div *ngIf="loading" class="loading">
+    <div class="spinner"></div>
+    <p>Loading tenants...</p>
+  </div>
+
+  <div class="tenants-grid" *ngIf="!loading && tenants.length > 0">
+    <div class="tenant-card" *ngFor="let tenant of tenants" [class.inactive]="!tenant.isActive">
+      <div class="card-header" [style.background-color]="tenant.themeColor">
+        <h3>{{ tenant.name }}</h3>
+        <span class="status-badge" [class.active]="tenant.isActive">
+          {{ tenant.isActive ? 'Active' : 'Inactive' }}
+        </span>
+      </div>
+
+      <div class="card-body">
+        <div class="info-row">
+          <span class="label">Subdomain:</span>
+          <span class="value">{{ tenant.subdomain }}.localhost</span>
+        </div>
+
+        <div class="info-row">
+          <span class="label">Plan:</span>
+          <span class="badge" [ngClass]="getPlanBadgeClass(tenant.subscriptionPlan)">
+            {{ tenant.subscriptionPlan }}
+          </span>
+        </div>
+
+        <div class="info-row">
+          <span class="label">Products:</span>
+          <span class="value">Max {{ tenant.maxProducts }}</span>
+        </div>
+
+        <div class="info-row">
+          <span class="label">Users:</span>
+          <span class="value">Max {{ tenant.maxUsers }}</span>
+        </div>
+
+        <div class="info-row">
+          <span class="label">Created:</span>
+          <span class="value">{{ tenant.createdAt | date:'short' }}</span>
+        </div>
+
+        <div class="info-row" *ngIf="tenant.subscriptionExpiresAt">
+          <span class="label">Expires:</span>
+          <span class="value">{{ tenant.subscriptionExpiresAt | date:'short' }}</span>
+        </div>
+      </div>
+
+      <div class="card-actions">
+        <button class="btn-view" (click)="viewTenant(tenant.subdomain)">
+          👁️ View Store
+        </button>
+        <button 
+          class="btn-toggle" 
+          [class.btn-deactivate]="tenant.isActive"
+          [class.btn-activate]="!tenant.isActive"
+          (click)="toggleTenantStatus(tenant.id, tenant.isActive)">
+          {{ tenant.isActive ? '🔒 Deactivate' : '✅ Activate' }}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="empty-state" *ngIf="!loading && tenants.length === 0">
+    <p>No tenants found</p>
+    <a routerLink="/admin/create-tenant" class="btn-create-large">
+      Create Your First Tenant
+    </a>
+  </div>
+</div>

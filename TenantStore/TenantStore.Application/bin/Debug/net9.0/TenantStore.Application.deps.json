@@ -9,6 +9,7 @@
       "TenantStore.Application/1.0.0": {
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
+          "Microsoft.AspNetCore.Http.Features": "3.1.32",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
           "TenantStore.Domain": "1.0.0"
         },
@@ -24,6 +25,18 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http.Features/3.1.32": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.32",
+          "System.IO.Pipelines": "4.7.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "3.1.32.0",
+            "fileVersion": "3.100.3222.56610"
+          }
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -32,6 +45,15 @@
           }
         }
       },
+      "Microsoft.Extensions.Primitives/3.1.32": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "3.1.32.0",
+            "fileVersion": "3.100.3222.56602"
+          }
+        }
+      },
+      "System.IO.Pipelines/4.7.5": {},
       "TenantStore.Domain/1.0.0": {
         "runtime": {
           "TenantStore.Domain.dll": {
@@ -55,12 +77,33 @@
       "path": "bcrypt.net-next/4.0.3",
       "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Http.Features/3.1.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uf8Cae8ThkSWPqzRD1HyBzGjd3HbJzw4HDPtMRv2sMmJCDBkGxMIc3gGFP09VLPzt5bHRv82TNPfOYFsMRhr8Q==",
+      "path": "microsoft.aspnetcore.http.features/3.1.32",
+      "hashPath": "microsoft.aspnetcore.http.features.3.1.32.nupkg.sha512"
+    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-+6f2qv2a3dLwd5w6JanPIPs47CxRbnk+ZocMJUhv9NxP88VlOcJYZs9jY+MYSjxvady08bUZn6qgiNh7DadGgg==",
       "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/3.1.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N8lTVwdjR+df9Sx3VdHfrecV6zl8KQoAx7kQXJ3rYwQBEw2vuZM0LKVAqjnaA/TBC8ZKnt99ptwH5iaEOxBuYQ==",
+      "path": "microsoft.extensions.primitives/3.1.32",
+      "hashPath": "microsoft.extensions.primitives.3.1.32.nupkg.sha512"
+    },
+    "System.IO.Pipelines/4.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iqGBxw9zqxHK4bzwiYMYGYnaKK1OBQkLGwqqN/+kkj1lQVo+jEaEntOCL4XztOHjpp+ANYQ4UPKNUeeQmFK3mQ==",
+      "path": "system.io.pipelines/4.7.5",
+      "hashPath": "system.io.pipelines.4.7.5.nupkg.sha512"
     },
     "TenantStore.Domain/1.0.0": {
       "type": "project",

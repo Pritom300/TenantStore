@@ -4,7 +4,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>1b2f2779-5c59-467c-947d-212e01750952</UserSecretsId>
+    <UserSecretsId>9c9b38a1-c658-4038-a441-62290e46cd03</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
@@ -24,6 +24,10 @@
   <ItemGroup>
     <ProjectReference Include="..\TenantStore.Application\TenantStore.Application.csproj" />
     <ProjectReference Include="..\TenantStore.Infrastructure\TenantStore.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\products\" />
   </ItemGroup>
 
 </Project>

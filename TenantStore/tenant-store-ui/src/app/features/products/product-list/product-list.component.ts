@@ -4,14 +4,17 @@ import { RouterModule } from '@angular/router';
 import { ProductService } from '../../../core/services/product.service';
 import { AuthService } from '../../../core/services/auth.service';
 import { Product } from '../../../core/models/product.model';
+import { environment } from '../../../../environments/environment';
 
 @Component({
   selector: 'app-product-list',
-
+  
   templateUrl: './product-list.component.html',
   styleUrl: './product-list.component.scss'
 })
 export class ProductListComponent implements OnInit {
+
+  apiUrl = environment.apiUrl.replace('/api', '');
   products: Product[] = [];
   loading = true;
   errorMessage = '';
@@ -31,6 +34,9 @@ export class ProductListComponent implements OnInit {
       next: (products) => {
         this.products = products;
         this.loading = false;
+        products.forEach(p => {
+    console.info(p.imageUrl + "imageUrl");
+  });
       },
       error: (error) => {
         this.errorMessage = 'Failed to load products';

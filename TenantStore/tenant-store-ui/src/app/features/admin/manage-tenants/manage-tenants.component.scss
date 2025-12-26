@@ -1,0 +1,237 @@
+.manage-tenants-container {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    h1 {
+      color: var(--primary-color, #007bff);
+      margin: 0 0 0.5rem 0;
+    }
+
+    .subtitle {
+      color: #666;
+      margin: 0;
+    }
+
+    .btn-create {
+      padding: 0.75rem 1.5rem;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: transform 0.3s;
+
+      &:hover {
+        transform: translateY(-2px);
+      }
+    }
+  }
+
+  .stats-bar {
+    display: flex;
+    gap: 2rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+
+    .stat {
+      .label {
+        color: #666;
+        margin-right: 0.5rem;
+      }
+
+      .value {
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: var(--primary-color, #007bff);
+      }
+    }
+  }
+
+  .alert {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+
+  .loading {
+    text-align: center;
+    padding: 3rem;
+
+    .spinner {
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid var(--primary-color, #007bff);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 1rem;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  }
+
+  .tenants-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+
+    .tenant-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+
+      &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      }
+
+      &.inactive {
+        opacity: 0.6;
+        border: 2px solid #dc3545;
+      }
+
+      .card-header {
+        padding: 1.5rem;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h3 {
+          margin: 0;
+          font-size: 1.5rem;
+        }
+
+        .status-badge {
+          padding: 0.25rem 0.75rem;
+          border-radius: 4px;
+          background: rgba(255,255,255,0.2);
+          font-size: 0.875rem;
+
+          &.active {
+            background: rgba(40, 167, 69, 0.8);
+          }
+        }
+      }
+
+      .card-body {
+        padding: 1.5rem;
+
+        .info-row {
+          display: flex;
+          justify-content: space-between;
+          padding: 0.75rem 0;
+          border-bottom: 1px solid #eee;
+
+          &:last-child {
+            border-bottom: none;
+          }
+
+          .label {
+            color: #666;
+            font-weight: 500;
+          }
+
+          .value {
+            color: #333;
+          }
+
+          .badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: white;
+
+            &.badge-free {
+              background-color: #6c757d;
+            }
+
+            &.badge-basic {
+              background-color: #007bff;
+            }
+
+            &.badge-premium {
+              background-color: #28a745;
+            }
+
+            &.badge-enterprise {
+              background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            }
+          }
+        }
+      }
+
+      .card-actions {
+        padding: 1rem 1.5rem;
+        background: #f8f9fa;
+        display: flex;
+        gap: 0.5rem;
+
+        button {
+          flex: 1;
+          padding: 0.75rem;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 0.875rem;
+          transition: opacity 0.3s;
+
+          &:hover {
+            opacity: 0.8;
+          }
+
+          &.btn-view {
+            background-color: #007bff;
+            color: white;
+          }
+
+          &.btn-deactivate {
+            background-color: #dc3545;
+            color: white;
+          }
+
+          &.btn-activate {
+            background-color: #28a745;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 3rem;
+    background: white;
+    border-radius: 8px;
+
+    .btn-create-large {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 1rem 2rem;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 1.1rem;
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+}

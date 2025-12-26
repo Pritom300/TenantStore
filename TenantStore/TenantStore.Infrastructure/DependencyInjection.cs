@@ -32,6 +32,7 @@ public static class DependencyInjection
 
         // Services
         services.AddScoped<ITokenService, TokenService>();
+        services.AddScoped<IFileService, FileService>();
 
         return services;
     }

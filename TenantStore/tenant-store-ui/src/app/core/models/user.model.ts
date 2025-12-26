@@ -1,10 +1,8 @@
-import { TenantInfo } from "./tenant.model";
-
 export interface User {
   id: string;
   name: string;
   email: string;
-  role: string;
+  role: 'SuperAdmin' | 'Admin' | 'User';
   isActive: boolean;
   createdAt: Date;
 }
@@ -28,5 +26,15 @@ export interface LoginResponse {
     email: string;
     role: string;
   };
-  tenant: TenantInfo;
+  tenant: {
+    id: string;
+    name: string;
+    subdomain: string;
+    themeColor: string;
+  };
+}
+
+export interface UpdateUserDto {
+  name: string;
+  email: string;
 }

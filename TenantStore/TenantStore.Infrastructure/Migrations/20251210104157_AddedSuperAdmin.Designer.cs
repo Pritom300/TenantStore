@@ -12,8 +12,8 @@ using TenantStore.Infrastructure.Data;
 namespace TenantStore.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20251218064722_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20251210104157_AddedSuperAdmin")]
+    partial class AddedSuperAdmin
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -5,6 +5,7 @@ using System.Text;
 using TenantStore.API.Middleware;
 using TenantStore.Application;
 using TenantStore.Infrastructure;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -68,18 +69,53 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddAuthorization();
 
 // CORS Configuration (for Angular app)
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("AllowAngularApp", policy =>
+//    {
+//        policy.WithOrigins(
+//                "http://localhost:4200",
+//                "http://alpha.localhost:4200",
+//                "http://beta.localhost:4200",
+//                "https://localhost:4200",        // Add HTTPS too
+//                "https://alpha.localhost:4200",
+//                "https://beta.localhost:4200"
+//            )
+//            .AllowAnyHeader()
+//            .AllowAnyMethod()
+//            .AllowCredentials()
+//            .WithExposedHeaders("X-Tenant-Subdomain");
+//    });
+//});
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngularApp", policy =>
     {
-        policy.WithOrigins(
-                "http://localhost:4200",
-                "http://alpha.localhost:4200",
-                "http://beta.localhost:4200"
-            )
-            .AllowAnyHeader()
-            .AllowAnyMethod()
-            .AllowCredentials();
+        policy.SetIsOriginAllowed(origin =>
+        {
+            // Parse the origin
+            if (Uri.TryCreate(origin, UriKind.Absolute, out var uri))
+            {
+                var host = uri.Host;
+
+                // Allow ANY subdomain of localhost
+                if (host.Contains("localhost"))
+                {
+                    return true;  // alpha.localhost, beta.localhost, gg.localhost, etc.
+                }
+
+                // For production - allow your domain with any subdomain
+                var allowedDomains = new[] { "yourdomain.com", "yourapp.com" };
+                return allowedDomains.Any(domain => host.EndsWith(domain));
+            }
+
+            return false;
+        })
+        .AllowAnyHeader()
+        .AllowAnyMethod()
+        .AllowCredentials()
+        .WithExposedHeaders("X-Tenant-Subdomain");
     });
 });
 
@@ -99,22 +135,34 @@ if (app.Environment.IsDevelopment())
     });
 }
 
+//app.UseMiddleware<TenantMiddleware>(); //Deepseek
 app.UseHttpsRedirection();
 
 app.UseCors("AllowAngularApp");
 
 // IMPORTANT: Tenant middleware must come BEFORE authentication
 app.UseTenantResolution();
-
+app.UseStaticFiles();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllers();
-
-//For seed data purpose
 using (var scope = app.Services.CreateScope())
 {
     await TenantStore.API.SeedData.InitializeAsync(scope.ServiceProvider);
 }
 
+app.MapControllers();
+
 app.Run();
+
+// ============================================================================
+// IMPORTANT NOTES FOR SETUP:
+// ============================================================================
+// 1. Update appsettings.json with your connection string
+// 2. Make sure SQL Server (LocalDB or Express) is installed
+// 3. Open Package Manager Console in Visual Studio
+// 4. Select "TenantStore.Infrastructure" as Default Project
+// 5. Run: Add-Migration InitialCreate
+// 6. Run: Update-Database
+// 7. The database will be created automatically
+// ============================================================================

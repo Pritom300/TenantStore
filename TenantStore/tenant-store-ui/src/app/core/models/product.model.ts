@@ -14,6 +14,7 @@ export interface CreateProductDto {
   description?: string;
   price: number;
   stock: number;
+  imageUrl?:string
 }
 
 export interface UpdateProductDto {
@@ -21,4 +22,5 @@ export interface UpdateProductDto {
   description?: string;
   price: number;
   stock: number;
+  imageUrl?:string
 }

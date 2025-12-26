@@ -10,4 +10,5 @@ public interface ITenantService
     Task<Result<List<TenantDto>>> GetAllAsync(CancellationToken cancellationToken = default);
     Task<Result<TenantDto>> CreateAsync(CreateTenantDto dto, CancellationToken cancellationToken = default);
     Task<Result> UpdateThemeAsync(Guid id, string themeColor, CancellationToken cancellationToken = default);
+    Task<Result> UpgradeSubscriptionAsync(Guid tenantId, string plan, int maxProducts, int maxUsers, int durationMonths, CancellationToken cancellationToken = default);
 }

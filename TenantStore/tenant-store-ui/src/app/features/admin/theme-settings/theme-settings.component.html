@@ -1,0 +1,64 @@
+<div class="theme-settings-container">
+  <h1>🎨 Theme Settings</h1>
+  <p class="subtitle">Customize your store's appearance</p>
+
+  <div class="alert alert-success" *ngIf="successMessage">
+    {{ successMessage }}
+  </div>
+
+  <div class="alert alert-error" *ngIf="errorMessage">
+    {{ errorMessage }}
+  </div>
+
+  <div class="settings-card">
+    <h2>Current Theme</h2>
+    <div class="current-theme">
+      <div class="color-preview-large" [style.background-color]="selectedColor"></div>
+      <div class="color-info">
+        <h3>{{ selectedColor }}</h3>
+        <p>This color will be used for navigation, buttons, and accents</p>
+      </div>
+    </div>
+
+    <h2>Preset Colors</h2>
+    <div class="preset-colors">
+      <div 
+        class="preset-color" 
+        *ngFor="let preset of presetColors"
+        [class.active]="selectedColor === preset.color"
+        [style.background-color]="preset.color"
+        [title]="preset.name"
+        (click)="selectPreset(preset.color)">
+        <span class="check" *ngIf="selectedColor === preset.color">✓</span>
+      </div>
+    </div>
+
+    <h2>Custom Color</h2>
+    <div class="custom-color-picker">
+      <input 
+        type="color" 
+        [(ngModel)]="selectedColor"
+        (change)="applyThemePreview(selectedColor)"
+      />
+      <input 
+        type="text" 
+        [(ngModel)]="selectedColor"
+        (change)="applyThemePreview(selectedColor)"
+        placeholder="#007bff"
+      />
+    </div>
+
+    <div class="preview-section">
+      <h2>Preview</h2>
+      <div class="preview-elements">
+        <button class="preview-button">Primary Button</button>
+        <div class="preview-nav">Navigation Bar</div>
+        <div class="preview-link">Link Text</div>
+      </div>
+    </div>
+
+    <button class="btn-save" (click)="saveTheme()" [disabled]="loading">
+      {{ loading ? 'Saving...' : '💾 Save Theme' }}
+    </button>
+  </div>
+</div>

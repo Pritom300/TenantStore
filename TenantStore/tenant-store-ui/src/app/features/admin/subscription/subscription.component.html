@@ -1,0 +1,108 @@
+<div class="subscription-container">
+  <h1>⭐ Subscription Plans</h1>
+  
+  <div class="current-plan" *ngIf="tenantInfo && !loading">
+    <h2>Current Plan: {{ tenantInfo.subscriptionPlan }}</h2>
+    <div class="plan-details">
+      <div class="detail-item">
+        <span class="label">Max Products:</span>
+        <span class="value">{{ tenantInfo.maxProducts }}</span>
+      </div>
+      <div class="detail-item">
+        <span class="label">Max Users:</span>
+        <span class="value">{{ tenantInfo.maxUsers }}</span>
+      </div>
+      <div class="detail-item" *ngIf="tenantInfo.subscriptionExpiresAt">
+        <span class="label">Expires:</span>
+        <span class="value">{{ tenantInfo.subscriptionExpiresAt | date:'medium' }}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="plans-grid">
+    <div class="plan-card" *ngFor="let plan of plans" 
+         [class.current]="isCurrentPlan(plan.name)"
+         [class.recommended]="plan.name === 'Premium'">
+      <div class="plan-badge" *ngIf="isCurrentPlan(plan.name)">
+        Current Plan
+      </div>
+      <div class="recommended-badge" *ngIf="plan.name === 'Premium' && !isCurrentPlan(plan.name)">
+        ⭐ Recommended
+      </div>
+      
+      <h3>{{ plan.name }}</h3>
+      <div class="price">
+        <span class="amount">${{ plan.price }}</span>
+        <span class="period">/month</span>
+      </div>
+
+      <ul class="features">
+        <li *ngFor="let feature of plan.features">✓ {{ feature }}</li>
+      </ul>
+
+      <button 
+        class="btn-upgrade" 
+        (click)="upgradePlan(plan)"
+        [disabled]="isCurrentPlan(plan.name)">
+        {{ isCurrentPlan(plan.name) ? 'Current Plan' : 'Upgrade Now' }}
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Math Challenge Modal -->
+<div class="modal-overlay" *ngIf="showMathChallenge" (click)="closeMathChallenge()">
+  <div class="math-challenge-modal" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <h2>🧮 Solve to Upgrade</h2>
+      <button class="btn-close" (click)="closeMathChallenge()">✕</button>
+    </div>
+
+    <div class="modal-body">
+      <p class="challenge-intro">
+        You're upgrading to <strong>{{ selectedPlan?.name }}</strong> plan!
+        <br>Solve this math problem to confirm:
+      </p>
+
+      <div class="math-question">
+        <span class="number">{{ mathChallenge?.num1 }}</span>
+        <span class="operator">{{ mathChallenge?.operator }}</span>
+        <span class="number">{{ mathChallenge?.num2 }}</span>
+        <span class="equals">=</span>
+        <span class="question-mark">?</span>
+      </div>
+
+      <input 
+        type="number" 
+        [(ngModel)]="userAnswer" 
+        placeholder="Your answer"
+        class="answer-input"
+        (keyup.enter)="submitMathChallenge()"
+        autofocus
+      />
+
+      <div class="alert alert-error" *ngIf="challengeError">
+        {{ challengeError }}
+      </div>
+
+      <div class="upgrade-info">
+        <p><strong>New Plan Benefits:</strong></p>
+        <ul>
+          <li>💰 Price: ${{ selectedPlan?.price }}/month</li>
+          <li>📦 Max Products: {{ selectedPlan?.maxProducts }}</li>
+          <li>👥 Max Users: {{ selectedPlan?.maxUsers }}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <button class="btn-cancel" (click)="closeMathChallenge()">Cancel</button>
+      <button 
+        class="btn-submit" 
+        (click)="submitMathChallenge()"
+        [disabled]="upgrading">
+        {{ upgrading ? 'Upgrading...' : '✓ Submit Answer' }}
+      </button>
+    </div>
+  </div>
+</div>

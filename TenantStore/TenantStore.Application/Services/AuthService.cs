@@ -30,7 +30,7 @@ public class AuthService : IAuthService
         if (user == null)
             return Result<LoginResponseDto>.Failure("Invalid email or password");
 
-       
+        // Verify password (simplified - in real app use BCrypt or similar)
         if (!VerifyPassword(request.Password, user.PasswordHash))
             return Result<LoginResponseDto>.Failure("Invalid email or password");
 
@@ -67,12 +67,28 @@ public class AuthService : IAuthService
 
     public async Task<Result<LoginResponseDto>> RegisterAsync(RegisterRequestDto request, CancellationToken cancellationToken = default)
     {
+        //Subscritpion check
+
         if (_tenantProvider.TenantId == null)
             return Result<LoginResponseDto>.Failure("Tenant not found");
 
         var tenant = await _unitOfWork.Tenants.GetByIdAsync(_tenantProvider.TenantId.Value, cancellationToken);
         if (tenant == null)
             return Result<LoginResponseDto>.Failure("Tenant not found");
+
+        //  CHECK USER LIMIT
+        var currentUserCount = await _unitOfWork.Users
+            .CountAsync(u => u.TenantId == _tenantProvider.TenantId.Value && !u.IsDeleted, cancellationToken);
+
+        if (currentUserCount >= tenant.MaxUsers)
+        {
+            return Result<LoginResponseDto>.Failure(
+                $"User limit reached! Your {tenant.SubscriptionPlan} plan allows {tenant.MaxUsers} users. " +
+                $"You currently have {currentUserCount} users. Please upgrade your subscription."
+            );
+        }
+        //Subscription check end
+       
 
         if (!tenant.CanAddUser())
             return Result<LoginResponseDto>.Failure("User limit reached for this subscription");
@@ -113,13 +129,14 @@ public class AuthService : IAuthService
 
     private string HashPassword(string password)
     {
-        
+        // IMPORTANT: In production, use BCrypt.Net-Next or similar
+        // This is simplified for demonstration
         return BCrypt.Net.BCrypt.HashPassword(password);
     }
 
     private bool VerifyPassword(string password, string passwordHash)
     {
-        
+        // IMPORTANT: In production, use BCrypt.Net-Next or similar
         return BCrypt.Net.BCrypt.Verify(password, passwordHash);
     }
 }

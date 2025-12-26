@@ -68,4 +68,6 @@ public class User : BaseAuditableEntity
     }
 
     public bool IsAdmin() => Role == UserRole.Admin;
+
+    public bool IsSuperAdmin() => Role == UserRole.SuperAdmin;
 }

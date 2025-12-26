@@ -19,13 +19,14 @@ public class Product : BaseAuditableEntity
     private Product() { }
 
     // Factory method
-    public static Product Create(Guid tenantId, string name, decimal price, int stock, string? description = null)
+    public static Product Create(Guid tenantId, string name, decimal price, int stock, string? description = null, string? imageUrl = null)
     {
         var product = new Product
         {
             TenantId = tenantId,
             Name = name ?? throw new ArgumentNullException(nameof(name)),
             Description = description,
+            ImageUrl = imageUrl,
             Price = price >= 0 ? price : throw new ArgumentException("Price cannot be negative", nameof(price)),
             Stock = stock >= 0 ? stock : throw new ArgumentException("Stock cannot be negative", nameof(stock)),
             IsActive = true,

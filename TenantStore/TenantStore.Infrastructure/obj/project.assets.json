@@ -92,6 +92,23 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Microsoft.AspNetCore.Http.Features/3.1.32": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.32",
+          "System.IO.Pipelines": "4.7.5"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "type": "package",
         "compile": {
@@ -1244,7 +1261,7 @@
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net7.0/System.IO.Pipelines.dll": {
             "related": ".xml"
           }
         },
@@ -1579,6 +1596,7 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
+          "Microsoft.AspNetCore.Http.Features": "3.1.32",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
           "TenantStore.Domain": "1.0.0"
         },
@@ -1703,6 +1721,23 @@
         "lib/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
         "microsoft.aspnetcore.authentication.jwtbearer.9.0.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/3.1.32": {
+      "sha512": "uf8Cae8ThkSWPqzRD1HyBzGjd3HbJzw4HDPtMRv2sMmJCDBkGxMIc3gGFP09VLPzt5bHRv82TNPfOYFsMRhr8Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/3.1.32",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.3.1.32.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
@@ -4534,11 +4569,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj",
+      "projectUniqueName": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj",
       "projectName": "TenantStore.Infrastructure",
-      "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj",
+      "projectPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\obj\\",
+      "outputPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4559,11 +4594,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj": {
-              "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj"
+            "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj": {
+              "projectPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\TenantStore.Application.csproj"
             },
-            "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj": {
-              "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj"
+            "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj": {
+              "projectPath": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\TenantStore.Domain.csproj"
             }
           }
         }

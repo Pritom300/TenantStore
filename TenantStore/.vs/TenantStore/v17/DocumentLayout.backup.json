@@ -1,186 +1,178 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\",
+  "WorkspaceRootPath": "E:\\Project\\TenantStore\\TenantStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.application\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.infrastructure\\migrations\\20251218064722_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\migrations\\20251218064722_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.application\\interfaces\\itenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\interfaces\\itenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.api\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.api\\controllers\\tenantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\controllers\\tenantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.api\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1290F7A-432E-4D1E-8EB4-CB490FB15B4B}|TenantStore.Domain\\TenantStore.Domain.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1290F7A-432E-4D1E-8EB4-CB490FB15B4B}|TenantStore.Domain\\TenantStore.Domain.csproj|solutionrelative:tenantstore.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.api\\middleware\\tenantmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B87AFA4-2E75-463B-8017-7112CED6554B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\middleware\\tenantmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.infrastructure\\data\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\data\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.application\\dtos\\product\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\dtos\\product\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.application\\dtos\\product\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\dtos\\product\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.infrastructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.infrastructure\\services\\tenantprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\services\\tenantprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\interfaces\\itenantprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\interfaces\\itenantprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.application\\dtos\\product\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\dtos\\product\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.infrastructure\\repositories\\tenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\repositories\\tenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.application\\interfaces\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\interfaces\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.api\\controllers\\tenantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\controllers\\tenantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.infrastructure\\data\\configurations\\subscriptionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\data\\configurations\\subscriptionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1290F7A-432E-4D1E-8EB4-CB490FB15B4B}|TenantStore.Domain\\TenantStore.Domain.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.domain\\entities\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1290F7A-432E-4D1E-8EB4-CB490FB15B4B}|TenantStore.Domain\\TenantStore.Domain.csproj|solutionrelative:tenantstore.domain\\entities\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.infrastructure\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\repositories\\tenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\repositories\\tenantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.infrastructure\\data\\configurations\\tenantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{683E4B78-A614-43C1-8EFA-CE12049FDEAD}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\data\\configurations\\tenantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.application\\services\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\services\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\services\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\services\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3518B67-64CF-4768-8252-FEB4F5C86807}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1290F7A-432E-4D1E-8EB4-CB490FB15B4B}|TenantStore.Domain\\TenantStore.Domain.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1290F7A-432E-4D1E-8EB4-CB490FB15B4B}|TenantStore.Domain\\TenantStore.Domain.csproj|solutionrelative:tenantstore.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1290F7A-432E-4D1E-8EB4-CB490FB15B4B}|TenantStore.Domain\\TenantStore.Domain.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1290F7A-432E-4D1E-8EB4-CB490FB15B4B}|TenantStore.Domain\\TenantStore.Domain.csproj|solutionrelative:tenantstore.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\interfaces\\itenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\interfaces\\itenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.api\\middleware\\tenantmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A9B90E0-369B-4BC9-AEC0-4097ADB3B67B}|TenantStore.API\\TenantStore.API.csproj|solutionrelative:tenantstore.api\\middleware\\tenantmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\services\\tenantprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\services\\tenantprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\dtos\\product\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\dtos\\product\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\migrations\\20251209161900_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\migrations\\20251209161900_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\dtos\\product\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\dtos\\product\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\dtos\\product\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\dtos\\product\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\dtos\\tenant\\createtenantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\dtos\\tenant\\createtenantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\dtos\\tenant\\tenantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\dtos\\tenant\\tenantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\data\\configurations\\subscriptionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\data\\configurations\\subscriptionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\data\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\data\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\dtos\\auth\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\dtos\\auth\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\dtos\\auth\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\dtos\\auth\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\data\\configurations\\tenantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\data\\configurations\\tenantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\dtos\\auth\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\dtos\\auth\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.application\\common\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D78A97D-E213-4695-94EC-D3DE968CD3D8}|TenantStore.Application\\TenantStore.Application.csproj|solutionrelative:tenantstore.application\\common\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42B23315-83D7-4544-A2E5-DF5D5A236B2A}|TenantStore.Domain\\TenantStore.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\project\\project\\tenantstore\\tenantstore.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42B23315-83D7-4544-A2E5-DF5D5A236B2A}|TenantStore.Domain\\TenantStore.Domain.csproj|solutionrelative:tenantstore.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|e:\\project\\tenantstore\\tenantstore\\tenantstore.infrastructure\\migrations\\20251210104157_addedsuperadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF37FA18-C1C0-42B9-98B1-86BC501C0151}|TenantStore.Infrastructure\\TenantStore.Infrastructure.csproj|solutionrelative:tenantstore.infrastructure\\migrations\\20251210104157_addedsuperadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -190,592 +182,524 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20251218064722_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Migrations\\20251218064722_InitialCreate.cs",
-              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Migrations\\20251218064722_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Migrations\\20251218064722_InitialCreate.cs",
-              "RelativeToolTip": "TenantStore.Infrastructure\\Migrations\\20251218064722_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T06:47:23.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\SeedData.cs",
-              "RelativeDocumentMoniker": "TenantStore.API\\SeedData.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\SeedData.cs",
-              "RelativeToolTip": "TenantStore.API\\SeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T06:44:38.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\Program.cs",
-              "RelativeDocumentMoniker": "TenantStore.API\\Program.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\Program.cs",
-              "RelativeToolTip": "TenantStore.API\\Program.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T06:37:27.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "TenantStore.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\appsettings.Development.json",
-              "RelativeToolTip": "TenantStore.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-18T06:31:09.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\appsettings.json",
-              "RelativeDocumentMoniker": "TenantStore.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\appsettings.json",
-              "RelativeToolTip": "TenantStore.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-18T06:30:35.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TenantMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\Middleware\\TenantMiddleware.cs",
-              "RelativeDocumentMoniker": "TenantStore.API\\Middleware\\TenantMiddleware.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\Middleware\\TenantMiddleware.cs",
-              "RelativeToolTip": "TenantStore.API\\Middleware\\TenantMiddleware.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAYwEEAAAABAAAAAAAAAA==",
+              "Title": "Result.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Common\\Result.cs",
+              "RelativeDocumentMoniker": "TenantStore.Application\\Common\\Result.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Common\\Result.cs",
+              "RelativeToolTip": "TenantStore.Application\\Common\\Result.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwD0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T06:30:11.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "TenantStore.API\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "TenantStore.API\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwG8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T06:29:45.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TenantsController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\Controllers\\TenantsController.cs",
-              "RelativeDocumentMoniker": "TenantStore.API\\Controllers\\TenantsController.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\Controllers\\TenantsController.cs",
-              "RelativeToolTip": "TenantStore.API\\Controllers\\TenantsController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAwGgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T06:29:23.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "TenantStore.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "TenantStore.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwE4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T06:28:55.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "TenantStore.Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBYAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T05:13:48.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Services\\TokenService.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Services\\TokenService.cs",
-              "RelativeToolTip": "TenantStore.Infrastructure\\Services\\TokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T05:12:59.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TenantProvider.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Services\\TenantProvider.cs",
-              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Services\\TenantProvider.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Services\\TenantProvider.cs",
-              "RelativeToolTip": "TenantStore.Infrastructure\\Services\\TenantProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T05:11:24.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "TenantStore.Infrastructure\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAwwE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T05:10:32.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "TenantStore.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T05:10:03.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "TenantStore.Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T05:09:19.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TenantRepository.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Repositories\\TenantRepository.cs",
-              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Repositories\\TenantRepository.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Repositories\\TenantRepository.cs",
-              "RelativeToolTip": "TenantStore.Infrastructure\\Repositories\\TenantRepository.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA3wCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T05:08:46.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Repositories\\Repository.cs",
-              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Repositories\\Repository.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Repositories\\Repository.cs",
-              "RelativeToolTip": "TenantStore.Infrastructure\\Repositories\\Repository.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAUwE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T05:08:04.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SubscriptionConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\SubscriptionConfiguration.cs",
-              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Data\\Configurations\\SubscriptionConfiguration.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\SubscriptionConfiguration.cs",
-              "RelativeToolTip": "TenantStore.Infrastructure\\Data\\Configurations\\SubscriptionConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T05:07:11.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
-              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
-              "RelativeToolTip": "TenantStore.Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T05:06:24.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
-              "RelativeToolTip": "TenantStore.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T05:05:44.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "TenantConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\TenantConfiguration.cs",
-              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Data\\Configurations\\TenantConfiguration.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\TenantConfiguration.cs",
-              "RelativeToolTip": "TenantStore.Infrastructure\\Data\\Configurations\\TenantConfiguration.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T05:05:07.917Z",
+              "WhenOpened": "2025-12-12T09:20:54.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "TenantStore.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T05:02:30.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Services\\ProductService.cs",
-              "RelativeToolTip": "TenantStore.Application\\Services\\ProductService.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAkwAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:17:23.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DependencyInjection.cs",
-              "RelativeToolTip": "TenantStore.Application\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:16:34.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "TenantService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Services\\TenantService.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\Services\\TenantService.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Services\\TenantService.cs",
-              "RelativeToolTip": "TenantStore.Application\\Services\\TenantService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:14:28.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Services\\AuthService.cs",
-              "RelativeToolTip": "TenantStore.Application\\Services\\AuthService.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAgwCAAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:13:19.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "TenantStore.Application\\Interfaces\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:12:38.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "TenantStore.Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:11:46.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ITenantService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Interfaces\\ITenantService.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\Interfaces\\ITenantService.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Interfaces\\ITenantService.cs",
-              "RelativeToolTip": "TenantStore.Application\\Interfaces\\ITenantService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:02:15.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "TenantStore.Application\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:01:15.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
               "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Interfaces\\ITokenService.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Interfaces\\ITokenService.cs",
               "RelativeDocumentMoniker": "TenantStore.Application\\Interfaces\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Interfaces\\ITokenService.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Interfaces\\ITokenService.cs",
               "RelativeToolTip": "TenantStore.Application\\Interfaces\\ITokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:00:43.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T09:20:32.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "TenantStore.Domain\\Entities\\Product.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "TenantStore.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA9wBsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:09:46.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\DTOs\\Product\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "TenantStore.Application\\DTOs\\Product\\CreateProductDto.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\DTOs\\Product\\CreateProductDto.cs",
+              "RelativeToolTip": "TenantStore.Application\\DTOs\\Product\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:07:03.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\DTOs\\Product\\ProductDto.cs",
+              "RelativeDocumentMoniker": "TenantStore.Application\\DTOs\\Product\\ProductDto.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\DTOs\\Product\\ProductDto.cs",
+              "RelativeToolTip": "TenantStore.Application\\DTOs\\Product\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:06:58.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "TenantStore.Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "TenantStore.Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T12:01:41.412Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ITenantProvider.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Interfaces\\ITenantProvider.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\Interfaces\\ITenantProvider.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Interfaces\\ITenantProvider.cs",
-              "RelativeToolTip": "TenantStore.Application\\Interfaces\\ITenantProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:00:03.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
               "Title": "UpdateProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Product\\UpdateProductDto.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\DTOs\\Product\\UpdateProductDto.cs",
               "RelativeDocumentMoniker": "TenantStore.Application\\DTOs\\Product\\UpdateProductDto.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Product\\UpdateProductDto.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\DTOs\\Product\\UpdateProductDto.cs",
               "RelativeToolTip": "TenantStore.Application\\DTOs\\Product\\UpdateProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T08:59:27.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T11:58:34.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CreateProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Product\\CreateProductDto.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\DTOs\\Product\\CreateProductDto.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Product\\CreateProductDto.cs",
-              "RelativeToolTip": "TenantStore.Application\\DTOs\\Product\\CreateProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "TenantStore.Application\\Services\\ProductService.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "TenantStore.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAjwFIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T08:58:54.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T11:55:59.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Product\\ProductDto.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\DTOs\\Product\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Product\\ProductDto.cs",
-              "RelativeToolTip": "TenantStore.Application\\DTOs\\Product\\ProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Services\\FileService.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Services\\FileService.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\Services\\FileService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAuwFIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T08:58:23.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T11:47:06.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "UpdateUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\User\\UpdateUserDto.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\DTOs\\User\\UpdateUserDto.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\User\\UpdateUserDto.cs",
-              "RelativeToolTip": "TenantStore.Application\\DTOs\\User\\UpdateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Interfaces\\FileService.cs",
+              "RelativeDocumentMoniker": "TenantStore.Application\\Interfaces\\FileService.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Interfaces\\FileService.cs",
+              "RelativeToolTip": "TenantStore.Application\\Interfaces\\FileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T08:57:31.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T11:44:58.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\User\\UserDto.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\DTOs\\User\\UserDto.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\User\\UserDto.cs",
-              "RelativeToolTip": "TenantStore.Application\\DTOs\\User\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "Tenant.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\Entities\\Tenant.cs",
+              "RelativeDocumentMoniker": "TenantStore.Domain\\Entities\\Tenant.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\Entities\\Tenant.cs",
+              "RelativeToolTip": "TenantStore.Domain\\Entities\\Tenant.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T08:57:11.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T07:34:34.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "CreateTenantDto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Tenant\\CreateTenantDto.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\DTOs\\Tenant\\CreateTenantDto.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Tenant\\CreateTenantDto.cs",
-              "RelativeToolTip": "TenantStore.Application\\DTOs\\Tenant\\CreateTenantDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "TenantStore.Application\\Services\\AuthService.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "TenantStore.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAgwFoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T08:56:26.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T06:53:33.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "TenantDto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Tenant\\TenantDto.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\DTOs\\Tenant\\TenantDto.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Tenant\\TenantDto.cs",
-              "RelativeToolTip": "TenantStore.Application\\DTOs\\Tenant\\TenantDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "TenantService.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Services\\TenantService.cs",
+              "RelativeDocumentMoniker": "TenantStore.Application\\Services\\TenantService.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Services\\TenantService.cs",
+              "RelativeToolTip": "TenantStore.Application\\Services\\TenantService.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAqwHAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T08:55:49.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "LoginResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Auth\\LoginResponseDto.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\DTOs\\Auth\\LoginResponseDto.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Auth\\LoginResponseDto.cs",
-              "RelativeToolTip": "TenantStore.Application\\DTOs\\Auth\\LoginResponseDto.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowBcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T08:55:01.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "RegisterRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Auth\\RegisterRequestDto.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\DTOs\\Auth\\RegisterRequestDto.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Auth\\RegisterRequestDto.cs",
-              "RelativeToolTip": "TenantStore.Application\\DTOs\\Auth\\RegisterRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T08:54:31.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T12:26:59.088Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 42,
-              "Title": "LoginRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Auth\\LoginRequestDto.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\DTOs\\Auth\\LoginRequestDto.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\DTOs\\Auth\\LoginRequestDto.cs",
-              "RelativeToolTip": "TenantStore.Application\\DTOs\\Auth\\LoginRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Title": "20251210104157_AddedSuperAdmin.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Migrations\\20251210104157_AddedSuperAdmin.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Migrations\\20251210104157_AddedSuperAdmin.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Migrations\\20251210104157_AddedSuperAdmin.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\Migrations\\20251210104157_AddedSuperAdmin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T08:54:00.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "PaginatedResult.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Common\\PaginatedResult.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\Common\\PaginatedResult.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Common\\PaginatedResult.cs",
-              "RelativeToolTip": "TenantStore.Application\\Common\\PaginatedResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T08:53:05.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T10:41:58.362Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "Result.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Common\\Result.cs",
-              "RelativeDocumentMoniker": "TenantStore.Application\\Common\\Result.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Application\\Common\\Result.cs",
-              "RelativeToolTip": "TenantStore.Application\\Common\\Result.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "TenantStore.API\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "TenantStore.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwGAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T08:52:20.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T10:13:06.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "TenantStore.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Project\\Project\\TenantStore\\TenantStore.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "TenantStore.Domain\\Entities\\Product.cs",
+              "DocumentIndex": 26,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "TenantStore.Application\\DependencyInjection.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "TenantStore.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T10:12:20.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "TenantStore.Application\\Services\\UserService.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "TenantStore.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowCQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T10:09:39.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "TenantStore.Domain\\Entities\\User.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "TenantStore.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwEcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T10:06:37.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "TenantStore.Domain\\Enums\\UserRole.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "TenantStore.Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T10:05:34.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ITenantService.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Interfaces\\ITenantService.cs",
+              "RelativeDocumentMoniker": "TenantStore.Application\\Interfaces\\ITenantService.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Interfaces\\ITenantService.cs",
+              "RelativeToolTip": "TenantStore.Application\\Interfaces\\ITenantService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAACoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T08:52:47.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "TenantStore.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "TenantStore.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T08:52:00.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TenantStore.API\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TenantStore.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwC4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-09T16:24:16.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\SeedData.cs",
+              "RelativeDocumentMoniker": "TenantStore.API\\SeedData.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\SeedData.cs",
+              "RelativeToolTip": "TenantStore.API\\SeedData.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T16:22:02.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20251209161900_InitialCreate.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Migrations\\20251209161900_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Migrations\\20251209161900_InitialCreate.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Migrations\\20251209161900_InitialCreate.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\Migrations\\20251209161900_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T16:06:40.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T16:19:01.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\Program.cs",
+              "RelativeDocumentMoniker": "TenantStore.API\\Program.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\Program.cs",
+              "RelativeToolTip": "TenantStore.API\\Program.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAuwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T16:04:56.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TenantStore.API\\appsettings.Development.json",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\appsettings.Development.json",
+              "RelativeToolTip": "TenantStore.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-09T16:04:14.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "TenantStore.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "TenantStore.API\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAWwB0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T16:01:45.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TenantsController.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\Controllers\\TenantsController.cs",
+              "RelativeDocumentMoniker": "TenantStore.API\\Controllers\\TenantsController.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\Controllers\\TenantsController.cs",
+              "RelativeToolTip": "TenantStore.API\\Controllers\\TenantsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T16:01:05.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TenantStore.API\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TenantStore.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA8wBsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T16:00:23.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TenantMiddleware.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\Middleware\\TenantMiddleware.cs",
+              "RelativeDocumentMoniker": "TenantStore.API\\Middleware\\TenantMiddleware.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.API\\Middleware\\TenantMiddleware.cs",
+              "RelativeToolTip": "TenantStore.API\\Middleware\\TenantMiddleware.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAIBJwIcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:59:25.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwCIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:49:45.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Services\\TokenService.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Services\\TokenService.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\Services\\TokenService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:49:06.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TenantProvider.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Services\\TenantProvider.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Services\\TenantProvider.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Services\\TenantProvider.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\Services\\TenantProvider.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:48:35.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwEwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:47:46.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAD4vxMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:47:06.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:46:14.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:44:40.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TenantRepository.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Repositories\\TenantRepository.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Repositories\\TenantRepository.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Repositories\\TenantRepository.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\Repositories\\TenantRepository.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:43:46.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Repositories\\Repository.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAUwEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:43:08.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "SubscriptionConfiguration.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\SubscriptionConfiguration.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Data\\Configurations\\SubscriptionConfiguration.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\SubscriptionConfiguration.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\Data\\Configurations\\SubscriptionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:42:20.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:41:39.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:40:59.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "TenantConfiguration.cs",
+              "DocumentMoniker": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\TenantConfiguration.cs",
+              "RelativeDocumentMoniker": "TenantStore.Infrastructure\\Data\\Configurations\\TenantConfiguration.cs",
+              "ToolTip": "E:\\Project\\TenantStore\\TenantStore\\TenantStore.Infrastructure\\Data\\Configurations\\TenantConfiguration.cs",
+              "RelativeToolTip": "TenantStore.Infrastructure\\Data\\Configurations\\TenantConfiguration.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T15:40:11.077Z"
             }
           ]
         }

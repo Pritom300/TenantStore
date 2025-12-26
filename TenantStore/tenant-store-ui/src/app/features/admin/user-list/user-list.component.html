@@ -1,0 +1,89 @@
+<div class="user-list-container">
+  <div class="header">
+    <div>
+      <h1>👥 Users</h1>
+      <p class="subtitle">Manage users in your tenant</p>
+    </div>
+  </div>
+
+  <div class="stats-bar" *ngIf="tenantInfo">
+    <div class="stat">
+      <span class="label">Total Users:</span>
+      <span class="value">{{ users.length }}</span>
+    </div>
+    <div class="stat">
+      <span class="label">Max Users:</span>
+      <span class="value">{{ tenantInfo.maxUsers }}</span>
+    </div>
+    <div class="stat">
+      <span class="label">Available:</span>
+      <span class="value">{{ tenantInfo.maxUsers - users.length }}</span>
+    </div>
+  </div>
+
+  <div class="alert alert-error" *ngIf="errorMessage">
+    {{ errorMessage }}
+  </div>
+
+  <div *ngIf="loading" class="loading">
+    <div class="spinner"></div>
+    <p>Loading users...</p>
+  </div>
+
+  <div class="users-table" *ngIf="!loading && users.length > 0">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Role</th>
+          <th>Status</th>
+          <th>Joined</th>
+          <th *ngIf="authService.isAdmin() || authService.isSuperAdmin()">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td>
+            <div class="user-cell">
+              <div class="user-avatar">{{ user.name.charAt(0) }}</div>
+              <span>{{ user.name }}</span>
+            </div>
+          </td>
+          <td>{{ user.email }}</td>
+          <td>
+            <span class="badge" [ngClass]="getRoleBadgeClass(user.role)">
+              {{ user.role }}
+            </span>
+          </td>
+          <td>
+            <span class="status" [class.active]="user.isActive">
+              {{ user.isActive ? 'Active' : 'Inactive' }}
+            </span>
+          </td>
+          <td>{{ user.createdAt | date:'short' }}</td>
+          <td *ngIf="authService.isAdmin() || authService.isSuperAdmin()">
+            <div class="action-buttons">
+              <button 
+                class="btn-small btn-change-role" 
+                (click)="changeRole(user.id, 'Admin')"
+                *ngIf="user.role === 'User' && authService.isAdmin()">
+                Promote to Admin
+              </button>
+              <button 
+                class="btn-small btn-change-role" 
+                (click)="changeRole(user.id, 'User')"
+                *ngIf="user.role === 'Admin' && authService.isAdmin()">
+                Demote to User
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="empty-state" *ngIf="!loading && users.length === 0">
+    <p>No users found</p>
+  </div>
+</div>

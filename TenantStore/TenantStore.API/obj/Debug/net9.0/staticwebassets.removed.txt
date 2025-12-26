@@ -1,0 +1,3 @@
+E:\Project\TenantStore\TenantStore\TenantStore.API\wwwroot\uploads\products\1c238aee-84e8-49f1-819f-47584bc11084_47387b32-2cd8-439e-a7a6-139cf3e0e5bf.jpg
+E:\Project\TenantStore\TenantStore\TenantStore.API\wwwroot\uploads\products\296b1ddc-e0c9-4210-9e80-43f6046b9208_5bce45df-dad4-4d4a-b6c0-038865fa8f24.png
+E:\Project\TenantStore\TenantStore\TenantStore.API\wwwroot\uploads\products\296b1ddc-e0c9-4210-9e80-43f6046b9208_eeb1b600-0228-408a-aa89-7d2b6a3ba835.png

@@ -1,0 +1,59 @@
+<div class="product-list-container">
+  <div class="header">
+    <h2>Products</h2>
+    <a routerLink="/products/add" class="btn-add" *ngIf="authService.isAuthenticated()">
+      + Add Product
+    </a>
+  </div>
+
+  <div class="alert alert-error" *ngIf="errorMessage">
+    {{ errorMessage }}
+  </div>
+
+  <div *ngIf="loading" class="loading">
+    Loading products...
+  </div>
+
+  <div *ngIf="!loading && products.length === 0" class="empty-state">
+    <p>No products found. Add your first product!</p>
+  </div>
+
+  <div class="product-grid" *ngIf="!loading && products.length > 0">
+    <div class="product-card" *ngFor="let product of products">
+      <!-- <div class="product-image">
+        <img [src]="product.imageUrl || 'https://via.placeholder.com/300x200'" 
+             [alt]="product.name" />
+      </div> -->
+      <div class="product-image">
+      <img 
+        [src]="product.imageUrl ? apiUrl + product.imageUrl : 'https://via.placeholder.com/300x200?text=No+Image'" 
+        [alt]="product.name" 
+        (error)="'No Images!'"
+      />
+  </div>
+      <div class="product-info">
+        <h3>{{ product.name }}</h3>
+        <p class="description">{{ product.description || 'No description' }}</p>
+        
+        <div class="product-details">
+          <div class="price">${{ product.price | number:'1.2-2' }}</div>
+          <div class="stock" [class.low-stock]="product.stock < 10">
+            Stock: {{ product.stock }}
+          </div>
+        </div>
+
+        <div class="product-actions" *ngIf="authService.isAuthenticated()">
+          <a [routerLink]="['/products/edit', product.id]" class="btn-edit">
+            Edit
+          </a>
+         <button 
+            (click)="deleteProduct(product.id)" 
+            class="btn-delete"
+            *ngIf="authService.canDelete()">
+            Delete
+      </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
