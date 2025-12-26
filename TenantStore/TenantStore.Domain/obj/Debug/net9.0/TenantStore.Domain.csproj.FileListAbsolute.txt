@@ -9,3 +9,4 @@ E:\Project\TenantStore\TenantStore\TenantStore.Domain\obj\Debug\net9.0\TenantSto
 E:\Project\TenantStore\TenantStore\TenantStore.Domain\obj\Debug\net9.0\refint\TenantStore.Domain.dll
 E:\Project\TenantStore\TenantStore\TenantStore.Domain\obj\Debug\net9.0\TenantStore.Domain.pdb
 E:\Project\TenantStore\TenantStore\TenantStore.Domain\obj\Debug\net9.0\ref\TenantStore.Domain.dll
+E:\Project\TenantStore\TenantStore\TenantStore.Domain\obj\Debug\net9.0\TenantStore.Domain.sourcelink.json

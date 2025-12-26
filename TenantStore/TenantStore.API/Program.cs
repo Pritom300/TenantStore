@@ -68,25 +68,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 builder.Services.AddAuthorization();
 
-// CORS Configuration (for Angular app)
-//builder.Services.AddCors(options =>
-//{
-//    options.AddPolicy("AllowAngularApp", policy =>
-//    {
-//        policy.WithOrigins(
-//                "http://localhost:4200",
-//                "http://alpha.localhost:4200",
-//                "http://beta.localhost:4200",
-//                "https://localhost:4200",        // Add HTTPS too
-//                "https://alpha.localhost:4200",
-//                "https://beta.localhost:4200"
-//            )
-//            .AllowAnyHeader()
-//            .AllowAnyMethod()
-//            .AllowCredentials()
-//            .WithExposedHeaders("X-Tenant-Subdomain");
-//    });
-//});
+
 
 builder.Services.AddCors(options =>
 {
@@ -105,7 +87,7 @@ builder.Services.AddCors(options =>
                     return true;  // alpha.localhost, beta.localhost, gg.localhost, etc.
                 }
 
-                // For production - allow your domain with any subdomain
+                // For production - allow domain with any subdomain
                 var allowedDomains = new[] { "yourdomain.com", "yourapp.com" };
                 return allowedDomains.Any(domain => host.EndsWith(domain));
             }
@@ -135,12 +117,12 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-//app.UseMiddleware<TenantMiddleware>(); //Deepseek
+//app.UseMiddleware<TenantMiddleware>(); 
 app.UseHttpsRedirection();
 
 app.UseCors("AllowAngularApp");
 
-// IMPORTANT: Tenant middleware must come BEFORE authentication
+
 app.UseTenantResolution();
 app.UseStaticFiles();
 app.UseAuthentication();
@@ -155,14 +137,3 @@ app.MapControllers();
 
 app.Run();
 
-// ============================================================================
-// IMPORTANT NOTES FOR SETUP:
-// ============================================================================
-// 1. Update appsettings.json with your connection string
-// 2. Make sure SQL Server (LocalDB or Express) is installed
-// 3. Open Package Manager Console in Visual Studio
-// 4. Select "TenantStore.Infrastructure" as Default Project
-// 5. Run: Add-Migration InitialCreate
-// 6. Run: Update-Database
-// 7. The database will be created automatically
-// ============================================================================

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TenantStore.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63ba03c12d1588715476cf27378998fbfaa7b75a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+424c530045558460476698ff5fbb640be8f354d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("TenantStore.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TenantStore.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,3 +13,4 @@ E:\Project\TenantStore\TenantStore\TenantStore.Application\obj\Debug\net9.0\Tena
 E:\Project\TenantStore\TenantStore\TenantStore.Application\obj\Debug\net9.0\refint\TenantStore.Application.dll
 E:\Project\TenantStore\TenantStore\TenantStore.Application\obj\Debug\net9.0\TenantStore.Application.pdb
 E:\Project\TenantStore\TenantStore\TenantStore.Application\obj\Debug\net9.0\ref\TenantStore.Application.dll
+E:\Project\TenantStore\TenantStore\TenantStore.Application\obj\Debug\net9.0\TenantStore.Application.sourcelink.json

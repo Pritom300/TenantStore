@@ -17,3 +17,4 @@ E:\Project\TenantStore\TenantStore\TenantStore.Infrastructure\obj\Debug\net9.0\r
 E:\Project\TenantStore\TenantStore\TenantStore.Infrastructure\obj\Debug\net9.0\TenantStore.Infrastructure.pdb
 E:\Project\TenantStore\TenantStore\TenantStore.Infrastructure\obj\Debug\net9.0\TenantStore.Infrastructure.genruntimeconfig.cache
 E:\Project\TenantStore\TenantStore\TenantStore.Infrastructure\obj\Debug\net9.0\ref\TenantStore.Infrastructure.dll
+E:\Project\TenantStore\TenantStore\TenantStore.Infrastructure\obj\Debug\net9.0\TenantStore.Infrastructure.sourcelink.json
